@@ -6,6 +6,28 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-component.component.css']
 })
 export class ListComponentComponent implements OnInit {
+  people: any[] = [
+      {
+      'name': 'Antonio Fiore',
+      'isVip': true,
+      'country': 'ITA'
+      },
+      {
+      'name': 'Mcleod  Mueller',
+      'isVip': true,
+      'country': 'USA'
+      },
+      {
+      'name': 'Xiao  Ming',
+      'country': 'HK',
+      'isVip': false
+      },
+      {
+      'name': 'John Pappas',
+      'isVip': true,
+      'country': 'GR'
+      }
+    ];
 
   constructor() { }
 
