@@ -4,7 +4,8 @@ import { ListComponentComponent } from './list-component/list-component.componen
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [
-    { path: '', component: DashboardComponent },
+    { path: '', redirectTo: 'dashboard', pathMatch: 'full'},
+    { path: 'dashboard', component: DashboardComponent },
     { path: 'some', component: SomeComponentComponent },
     { path: 'list', component: ListComponentComponent }
    ];
