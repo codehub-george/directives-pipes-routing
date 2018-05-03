@@ -8,6 +8,8 @@ import { ListComponentComponent } from './list-component/list-component.componen
 import { SomeComponentComponent } from './some-component/some-component.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { routes } from './routes';
+import { Capitalize } from './capitalize.pipe';
+import { NestedSomeComponent } from './some-component/nested-some/nested-some.component';
 
 
 @NgModule({
@@ -17,11 +19,14 @@ import { routes } from './routes';
     ListComponentComponent,
     SomeComponentComponent,
     DashboardComponent,
+    Capitalize,
+    NestedSomeComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
     BrowserModule
   ],
+  exports: [Capitalize],
   providers: [],
   bootstrap: [AppComponent]
 })
