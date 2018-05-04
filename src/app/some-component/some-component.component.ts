@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SomeComponentComponent implements OnInit {
 
-  capitalizedValue = 'capitalized';
+  capitalizedValue: String = 'capitalized';
 
   constructor() { }
 

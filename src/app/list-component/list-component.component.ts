@@ -8,24 +8,24 @@ import { Component, OnInit } from '@angular/core';
 export class ListComponentComponent implements OnInit {
   people: any[] = [
       {
-      'name': 'Antonio Fiore',
-      'isVip': true,
-      'country': 'ITA'
+      name: 'Antonio Fiore',
+      isVip: true,
+      country: 'ITA'
       },
       {
-      'name': 'Mcleod  Mueller',
-      'isVip': true,
-      'country': 'USA'
+      name: 'Mcleod  Mueller',
+      isVip: true,
+      country: 'USA'
       },
       {
-      'name': 'Xiao  Ming',
-      'country': 'HK',
-      'isVip': false
+      name: 'Xiao  Ming',
+      country: 'HK',
+      isVip: false
       },
       {
-      'name': 'John Pappas',
-      'isVip': true,
-      'country': 'GR'
+      name: 'John Pappas',
+      isVip: true,
+      country: 'GR'
       }
     ];
 
